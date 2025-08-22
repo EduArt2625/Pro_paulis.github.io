@@ -11,9 +11,8 @@
   <!-- Estilos -->
   <link rel="stylesheet" href="css/Navbar.css">
   <link rel="stylesheet" href="css/Escaneo.css">
+  <link rel="stylesheet" href="css/Global.css">
 
-  <!-- Librería jsPDF -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
 </head>
 <body>
   <!-- Navbar -->
@@ -43,7 +42,7 @@
     <!-- Caja de información -->
     <div class="info-box">
       <p>Si desea conocer más información sobre las lesiones dictadas por el resultado, consulte aquí:</p>
-      <button id="infoBtn" class="btn-mas">MÁS</button>
+      <a href="Informacion_adicional.html" class="btn-mas" id="infoBtn">MÁS</a>
     </div>
   </main>
 
@@ -67,6 +66,8 @@
 </script>
 
   <!-- Scripts -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
   <script src="javas/Escaneo.js"></script>
 
   <!-- Footer -->
